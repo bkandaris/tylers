@@ -1,0 +1,32 @@
+nav {
+  width: 100vw;
+  height: 75px;
+  background: black;
+  color: white;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Vidaloka", serif;
+  padding-top: 0px;
+  ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: lightgrey;
+    font-family: "Vidaloka", serif;
+    padding: 14px;
+    &:hover {
+      background: white;
+      color: black;
+    }
+  }
+}
+
+.logo {
+  height: 50px;
+}
